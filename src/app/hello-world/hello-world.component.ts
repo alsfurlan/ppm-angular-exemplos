@@ -10,10 +10,9 @@ export class HelloWorldComponent implements OnInit {
   nome: string;
 
   constructor() {
-    this.nome = 'João';
   }
 
   ngOnInit(): void {
   }
-
+  
 }

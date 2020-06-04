@@ -1,10 +1,14 @@
 p {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-    color: red;
-    border: 1px dotted gray;
-    padding: 10px;
+    color: red; 
     font-size: 25px;  
     font-weight: bold;
-    background-color: lightyellow;
+    padding: 0px;
+    margin: 10px;
+}
+
+section {
+   background-color: lightyellow;
+   border: 1px dotted gray;
 }
