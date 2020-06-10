@@ -1,0 +1,15 @@
+<section>
+    <h2>
+        Livros
+    </h2>
+    <ol>
+        <li *ngFor="let livro of livros">
+            <strong>
+                {{livro.titulo}} 
+            </strong>
+            <em *ngFor="let autor of livro.autores">
+                - {{autor.nome}}
+            </em>
+        </li>
+    </ol>
+</section>
