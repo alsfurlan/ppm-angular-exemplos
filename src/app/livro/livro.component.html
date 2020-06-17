@@ -1,0 +1,8 @@
+<strong>
+    {{livro.titulo}} 
+</strong>
+<em *ngFor="let autor of livro.autores">
+    - {{autor.nome}}
+</em>
+<br>
+<botao-compra [disponibilidade]="livro.disponivel"></botao-compra>

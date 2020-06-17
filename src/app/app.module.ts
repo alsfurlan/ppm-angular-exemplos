@@ -9,6 +9,7 @@ import { DataHoraComponent } from './data-hora/data-hora.component';
 import { ContadorComponent } from './contador/contador.component';
 import { LivrosComponent } from './livros/livros.component';
 import { CompraComponent } from './compra/compra.component';
+import { LivroComponent } from './livro/livro.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { CompraComponent } from './compra/compra.component';
     DataHoraComponent,
     ContadorComponent,
     LivrosComponent,
-    CompraComponent
+    CompraComponent,
+    LivroComponent
   ],
   imports: [
     BrowserModule,
