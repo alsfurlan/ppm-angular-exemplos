@@ -10,6 +10,9 @@
             <em *ngFor="let autor of livro.autores">
                 - {{autor.nome}}
             </em>
+            <br>
+            <button *ngIf="livro.disponivel">Comprar</button>
+            <button *ngIf="!livro.disponivel" disabled>Indisponível</button>
         </li>
     </ol>
 </section>

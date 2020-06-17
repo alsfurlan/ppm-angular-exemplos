@@ -14,20 +14,23 @@ export class LivroService {
         titulo: 'JavaScript: O guia definitivo',
         autores: [
           { nome: 'David Flanagan'}
-        ]
+        ],
+        disponivel: true
       },
       {
         titulo: 'O melhor do JavaScript',
         autores: [
           { nome: 'Douglas Cockford' },
           { nome: 'David Flanagan'}
-        ]
+        ],
+        disponivel: true
       },
       {
         titulo: 'JavaScript Design Patterns',
         autores: [
           { nome: 'Addy Osmani' }
-        ]
+        ],
+        disponivel: false
       }
     ];
   }

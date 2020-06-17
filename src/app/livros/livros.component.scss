@@ -1,8 +1,16 @@
 section {
-    background-color: lightgray;
+    background-color: rgb(214, 245, 255);
     padding: 20px;
 }
 
 h2 {
     margin: 0px;
+}
+
+li {
+    margin-bottom: 10px;
+
+    button {
+        margin-top: 5px;
+    }
 }
