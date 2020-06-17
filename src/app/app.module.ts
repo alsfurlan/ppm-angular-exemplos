@@ -8,6 +8,7 @@ import { HelloWorldComponent } from './hello-world/hello-world.component';
 import { DataHoraComponent } from './data-hora/data-hora.component';
 import { ContadorComponent } from './contador/contador.component';
 import { LivrosComponent } from './livros/livros.component';
+import { CompraComponent } from './compra/compra.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { LivrosComponent } from './livros/livros.component';
     HelloWorldComponent,
     DataHoraComponent,
     ContadorComponent,
-    LivrosComponent
+    LivrosComponent,
+    CompraComponent
   ],
   imports: [
     BrowserModule,

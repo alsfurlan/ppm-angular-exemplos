@@ -11,8 +11,7 @@
                 - {{autor.nome}}
             </em>
             <br>
-            <button *ngIf="livro.disponivel">Comprar</button>
-            <button *ngIf="!livro.disponivel" disabled>Indisponível</button>
+            <botao-compra [disponibilidade]="livro.disponivel"></botao-compra>
         </li>
     </ol>
 </section>
